@@ -1,0 +1,23 @@
+<profile>
+    <id>development</id>
+    <activation>
+        <jdk>1.8</jdk>
+        <activeByDefault>true</activeByDefault>
+    </activation>
+    <properties>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <maven.compiler.compilerVersion>1.8</maven.compiler.compilerVersion>
+    </properties>
+    <id>jdk-14</id>
+    <activation>
+        <activeByDefault>true</activeByDefault>
+        <jdk>14</jdk>
+    </activation>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>14</maven.compiler.source>
+        <maven.compiler.target>14</maven.compiler.target>
+        <maven.compiler.compilerVersion>14</maven.compiler.compilerVersion>
+    </properties>
+</profile>
